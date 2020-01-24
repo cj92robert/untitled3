@@ -1,0 +1,15 @@
+
+
+
+<div>
+  <input type="text" class="form-control" id="InputColor" [(ngModel)]="a"  placeholder="Marka" (input)="refresh()">
+  <ul>
+  <li *ngFor="let quest of que">
+
+    {{quest.question}}<br>
+    {{quest.answer}}<br>
+    <br>
+  </li>
+  </ul>
+
+</div>
